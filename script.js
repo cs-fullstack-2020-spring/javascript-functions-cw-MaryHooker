@@ -15,6 +15,7 @@
 // // Create a function that’s passed a firstName and lastName. Return lastName comma firstName.
 
 // function userName(lastName,firstName){
+//     // !! use string templating not concatination
 //     return (lastName+firstName); 
 // }
 
@@ -29,6 +30,7 @@
 // let userNumber=prompt("Enter a number:");
 // //make function to with a for loop
 // function count(){
+//     // !! : the number they enter should be
 //     for(i=0;i<userNumber;i++){
 //         console.log(i)
 //     }
@@ -36,18 +38,18 @@
 // //call function to run
 // count();
 //******************************************************
-// ### Problem 4
-// Create a function called checkPassword. Send two string variables to the checkPassword function to check if the strings are equal. Return true if they are equal and false if they are not equal. Print the function's return value.
+// // ### Problem 4
+// // Create a function called checkPassword. Send two string variables to the checkPassword function to check if the strings are equal. Return true if they are equal and false if they are not equal. Print the function's return value.
 
-function checkPassword(name1,name2){
-    if(name1==name2){
-        console.log("true");
-    } else if(name1!=name2){
-        console.log("false");
-    } else{
-        return(name1,name2);
-    }
-}
+// function checkPassword(name1,name2){
+//     if(name1==name2){
+//         console.log("true");
+//     } else if(name1!=name2){
+//         console.log("false");
+//     } else{
+//         return(name1,name2);
+//     }
+// }
 
-checkPassword("bob","tom");
-checkPassword("bob","bob");
+// checkPassword("bob","tom");
+// checkPassword("bob","bob");
